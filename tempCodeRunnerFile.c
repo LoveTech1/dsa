@@ -1,0 +1,1 @@
+printf("top = %d\n", s->top);
