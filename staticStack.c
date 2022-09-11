@@ -66,12 +66,17 @@ void pop(struct stack *s)
 }
 void display(struct stack *s, int showItemAtIndex)
 {
-    // int showItemAtIndex ;
-    // s->top = showItemAtIndex - 1;
     int i;
-    int item = s->arr[s->top];
 
-    printf("The element at the given index is : %d\n", item);
+    for (i = s->top; i >= 0; i--)
+    {
+
+        printf("%d\t\n", s->arr[i]);
+    }
+    if (s->top == -1)
+    {
+        printf("Stack is empty.");
+    }
 }
 
 int main()
