@@ -1,4 +1,4 @@
-                                                                # DSA IN C
+                                                          # DSA IN C
                                                                 
 1. STACK
 2. QUEUE
